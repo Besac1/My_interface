@@ -5,6 +5,7 @@
 <head>
 	<title>My_interface</title>
 	<link rel="stylesheet" type="text/css" href="UI-My_interface/style.css">
+	<meta charset = "UTF-8"/>
 </head>
 <body>
 	<?php var_dump($files); ?>
