@@ -1,7 +1,7 @@
 <?php
-$exceptions = array('.', '..', '.git', 'index.php', 'interface.php', 'style.css', 'img');
+$exceptions = array('.', '..', '.git', 'UI-My_interface', 'index.php');
 $files = array();
-if ($dir = opendir('./')) {
+if ($dir = opendir($directory)) {
 
 	while(false !== ($curr = readdir($dir))) {
 
@@ -19,5 +19,3 @@ if ($dir = opendir('./')) {
 else {
 	echo 'The folder could not be opened';
 }
-
-?>
