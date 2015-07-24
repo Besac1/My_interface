@@ -9,6 +9,23 @@
 </head>
 <body>
 	<?php var_dump($files); ?>
+	
+	<section id = "mainpage">
+		
+		<p>C'est ma partie de tests</p>
+		<div id = 'context'>
+			
+            <ol id = 'menu'>
+                
+                <li class = "choix" value = "1">Nouveau dossier</li>
+                <li class = "choix" value = "2">Va bien niquer</li>
+
+            </ol>
+
+		</div>
+
+	</section>
+
     <script type = "text/javascript" src = "UI-My_interface/JS/script.js"></script>
 </body>
 </html>
