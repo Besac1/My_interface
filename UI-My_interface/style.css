@@ -1,0 +1,54 @@
+ol
+{
+
+    margin: 0;
+    padding: 0;
+    display: block;
+    border-radius: 15px;
+    list-style-type: none;
+
+}
+
+#mainpage
+{
+
+    height: 700px;
+    background-color: #E7A9DF;
+
+}
+
+#context 
+{
+
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    font-weight: normal;
+    border-radius: 15px;
+    word-spacing: nowrap;
+    background-color: white;
+    border: 1px solid black;
+    background-color: rgb(215,215,215);
+
+}
+
+.choix
+{
+
+    margin: 0;
+    padding: 5px;
+    display: block;
+    border-radius: 15px;
+    transform: 1s ease all;
+
+}
+
+.choix:hover
+{
+
+    background-color: #FFF;
+
+}
