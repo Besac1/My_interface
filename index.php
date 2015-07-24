@@ -8,5 +8,6 @@
 </head>
 <body>
 	<?php var_dump($files); ?>
+    <script type = "text/javascript" src = "UI-My_interface/JS/script.js"></script>
 </body>
 </html>
