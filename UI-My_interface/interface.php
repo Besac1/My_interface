@@ -1,5 +1,5 @@
 <?php
-$exceptions = array('.', '..', '.git', 'UI-My_interface', 'index.php');
+$exceptions = array('.', '..', '.git', 'UI-My_interface', 'README.md', 'index.php');
 $files = array();
 if ($dir = opendir($directory)) {
 
